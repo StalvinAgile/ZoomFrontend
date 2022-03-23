@@ -52,7 +52,7 @@ export default {
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
       sdkKey: "g25ChIs8wiph3tG6n9pLoJ5qmjDf9dRygz31",
       leaveUrl: "https://zoom-trial.netlify.app/",
-      meetingNumber: "72729930539",
+      meetingNumber: null,
       role: 0,
       signature:
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJnMjVDaElzOHdpcGgzdEc2bjlwTG9KNXFtakRmOWRSeWd6MzEiLCJpYXQiOjE2NDgwMzkwNjIsImV4cCI6MTY0ODA0NjI2MiwiYXBwS2V5IjoiZzI1Q2hJczh3aXBoM3RHNm45cExvSjVxbWpEZjlkUnlnejMxIiwidG9rZW5FeHAiOjE2NDgwNDYyNjJ9.h3il6wvikCsQqxSZg9QgxZoAjt9gxOOIbxEd_J4KbsQ",
