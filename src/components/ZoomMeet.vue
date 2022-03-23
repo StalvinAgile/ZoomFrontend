@@ -1,7 +1,11 @@
 <template>
   <v-app>
     <v-card class="meet-card" elevation="5">
-      <img width="150px" src="https://us04st1.zoom.us/static/6.0.5527/image/new/ZoomLogo.png" alt="ZOOm">
+      <img
+        width="150px"
+        src="https://us04st1.zoom.us/static/6.0.5527/image/new/ZoomLogo.png"
+        alt="ZOOm"
+      />
       <v-divider></v-divider>
       <v-text-field
         v-model="userName"
@@ -106,6 +110,9 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.v-text-field >>> input:focus {
+  outline: 0px !important;
+}
 .meet-card {
   margin: 10px 0px;
   width: 300px;
