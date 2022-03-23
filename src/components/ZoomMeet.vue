@@ -4,16 +4,16 @@
       <img width="150px" src="https://us04st1.zoom.us/static/6.0.5527/image/new/ZoomLogo.png" alt="ZOOm">
       <v-divider></v-divider>
       <v-text-field
-        v-model="meetingNumber"
+        v-model="userName"
         class="meeting-input-fields"
-        label="Enter your Name"
+        label="Enter User Name"
         outlined
         rounded
       ></v-text-field>
       <v-text-field
-        v-model="userName"
+        v-model="meetingNumber"
         class="meeting-input-fields"
-        label="Enter Meeting Id"
+        label="Enter Meeting id"
         outlined
         rounded
       ></v-text-field>
@@ -47,8 +47,7 @@ export default {
     return {
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
       sdkKey: "g25ChIs8wiph3tG6n9pLoJ5qmjDf9dRygz31",
-      leaveUrl: "http://localhost:8080",
-      meetingNumber: "",
+      meetingNumber: 71389417550,
       role: 1,
       signature:
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJnMjVDaElzOHdpcGgzdEc2bjlwTG9KNXFtakRmOWRSeWd6MzEiLCJpYXQiOjE2NDgwMzQ5NzYsImV4cCI6MTY0ODA0MjE3NiwiYXBwS2V5IjoiZzI1Q2hJczh3aXBoM3RHNm45cExvSjVxbWpEZjlkUnlnejMxIiwidG9rZW5FeHAiOjE2NDgwNDIxNzZ9.OcFpNWye6KQRJLBON8hGUCijnmcfXtByRiRIZpGE00k",
