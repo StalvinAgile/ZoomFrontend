@@ -1,28 +1,27 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <ZoomMeet />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import ZoomMeet from './components/ZoomMeet.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    ZoomMeet
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  width: 70%;
+  margin: auto;
   text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+}
+#zmmtg-root {
+  display: none;
 }
 </style>
