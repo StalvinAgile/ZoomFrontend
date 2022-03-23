@@ -49,7 +49,7 @@ export default {
       sdkKey: "g25ChIs8wiph3tG6n9pLoJ5qmjDf9dRygz31",
       leaveUrl: "https://zoom-trial.netlify.app/",
       meetingNumber: "71389417550",
-      role: 1,
+      role: 0,
       signature:
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJnMjVDaElzOHdpcGgzdEc2bjlwTG9KNXFtakRmOWRSeWd6MzEiLCJpYXQiOjE2NDgwMzQ5NzYsImV4cCI6MTY0ODA0MjE3NiwiYXBwS2V5IjoiZzI1Q2hJczh3aXBoM3RHNm45cExvSjVxbWpEZjlkUnlnejMxIiwidG9rZW5FeHAiOjE2NDgwNDIxNzZ9.OcFpNWye6KQRJLBON8hGUCijnmcfXtByRiRIZpGE00k",
       userEmail: "stalvinmm@gmail.com",
