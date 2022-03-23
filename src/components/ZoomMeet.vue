@@ -6,14 +6,14 @@
       <v-text-field
         v-model="userName"
         class="meeting-input-fields"
-        label="Enter User Name"
+        label="Enter your Name"
         outlined
         rounded
       ></v-text-field>
       <v-text-field
         v-model="meetingNumber"
         class="meeting-input-fields"
-        label="Enter Meeting id"
+        label="Enter Meeting Id"
         outlined
         rounded
       ></v-text-field>
@@ -47,7 +47,8 @@ export default {
     return {
       // This Sample App has been updated to use SDK App type credentials https://marketplace.zoom.us/docs/guides/build/sdk-app
       sdkKey: "g25ChIs8wiph3tG6n9pLoJ5qmjDf9dRygz31",
-      meetingNumber: 71389417550,
+      leaveUrl: "https://zoom-trial.netlify.app/",
+      meetingNumber: "71389417550",
       role: 1,
       signature:
         "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzZGtLZXkiOiJnMjVDaElzOHdpcGgzdEc2bjlwTG9KNXFtakRmOWRSeWd6MzEiLCJpYXQiOjE2NDgwMzQ5NzYsImV4cCI6MTY0ODA0MjE3NiwiYXBwS2V5IjoiZzI1Q2hJczh3aXBoM3RHNm45cExvSjVxbWpEZjlkUnlnejMxIiwidG9rZW5FeHAiOjE2NDgwNDIxNzZ9.OcFpNWye6KQRJLBON8hGUCijnmcfXtByRiRIZpGE00k",
