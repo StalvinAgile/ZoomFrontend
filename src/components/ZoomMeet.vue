@@ -11,14 +11,14 @@
         v-model="userName"
         class="meeting-input-fields"
         label="Enter your Name"
-        outlined
+        solo
         rounded
       ></v-text-field>
       <v-text-field
         v-model="meetingNumber"
         class="meeting-input-fields"
         label="Enter Meeting Id"
-        outlined
+        solo
         rounded
       ></v-text-field>
       <v-btn class="join-meeting" @click="getSignature" color="primary">
@@ -111,7 +111,7 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .v-text-field >>> input:focus {
-  outline: 0px !important;
+  outline: 0px solid transparent !important;
 }
 .meet-card {
   margin: 10px 0px;
