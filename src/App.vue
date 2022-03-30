@@ -1,27 +1,25 @@
 <template>
   <div id="app">
-    <ZoomMeet />
+    <div class="zoomcontainer">
+      <v-container>
+        <ZoomMeet />
+      </v-container>
+    </div>
   </div>
 </template>
 
 <script>
-import ZoomMeet from './components/ZoomMeet.vue'
+import ZoomMeet from "./components/ZoomMeet.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    ZoomMeet
-  }
-}
+    ZoomMeet,
+  },
+};
 </script>
-
-<style>
-#app {
-  width: 70%;
-  margin: auto;
-  text-align: center;
-}
-#zmmtg-root {
-  display: none;
+<style scoped>
+.zoomcontainer{
+  background-color: azure; 
 }
 </style>
